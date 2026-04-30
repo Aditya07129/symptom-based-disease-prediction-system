@@ -1,4 +1,4 @@
-# 🏥 Symptom-Based Disease Prediction System
+#  Symptom-Based Disease Prediction System
 
 <div align="center">
 
@@ -10,53 +10,53 @@
 
 **An AI-powered healthcare chatbot that leverages Machine Learning and NLP to predict diseases from user-reported symptoms — with voice interaction support.**
 
-[📖 Overview](#-overview) • [✨ Features](#-features) • [🗂️ Project Structure](#️-project-structure) • [⚙️ Installation](#️-installation) • [🚀 Usage](#-usage) • [📊 Model Details](#-model-details) • [📁 Dataset](#-dataset) • [🛣️ Roadmap](#️-roadmap)
+[ Overview](#-overview) • [ Features](#-features) • [ Project Structure](#️-project-structure) • [ Installation](#️-installation) • [ Usage](#-usage) • [ Model Details](#-model-details) • [ Dataset](#-dataset) • [ Roadmap](#️-roadmap)
 
 </div>
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This project implements a conversational healthcare chatbot that predicts diseases based on symptoms entered by the user. It employs two complementary machine learning classifiers — a **Decision Tree** and a **Support Vector Machine (SVM)** — to provide robust, dual-validated disease predictions.
 
 The chatbot interacts with users in a step-by-step dialogue, collects symptoms, evaluates severity, and outputs:
-- 🦠 **Predicted disease(s)**
-- 📋 **Disease description**
-- ⚠️ **Severity assessment** (consult doctor or take precautions)
-- 🛡️ **Recommended precautions**
-- 🔊 **Text-to-speech output** for an accessible, natural experience
+-  **Predicted disease(s)**
+-  **Disease description**
+- **everity assessment** (consult doctor or take precautions)
+-  **Recommended precautions**
+- **Text-to-speech output** for an accessible, natural experience
 
-> ⚠️ **Disclaimer:** This tool is intended for educational and informational purposes only. It is **not a substitute for professional medical advice**. Always consult a qualified healthcare provider for medical decisions.
+>  **Disclaimer:** This tool is intended for educational and informational purposes only. It is **not a substitute for professional medical advice**. Always consult a qualified healthcare provider for medical decisions.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🧠 **Dual ML Models** | Decision Tree + SVM for cross-validated, reliable predictions |
-| 💬 **Conversational UI** | Step-by-step symptom collection via interactive chat |
-| 🔊 **Text-to-Speech** | Voice output using `pyttsx3` for accessible interaction |
-| 🔍 **NLP Pattern Matching** | Regex-based symptom matching handles partial and fuzzy inputs |
-| 📊 **Severity Scoring** | Calculates condition severity from symptom weights and duration |
-| 📋 **Rich Output** | Returns disease descriptions, precautions, and doctor recommendations |
-| 📈 **EDA Visualizations** | Seaborn/Matplotlib charts for dataset exploration |
+|  **Dual ML Models** | Decision Tree + SVM for cross-validated, reliable predictions |
+|  **Conversational UI** | Step-by-step symptom collection via interactive chat |
+|  **Text-to-Speech** | Voice output using `pyttsx3` for accessible interaction |
+|  **NLP Pattern Matching** | Regex-based symptom matching handles partial and fuzzy inputs |
+|  **Severity Scoring** | Calculates condition severity from symptom weights and duration |
+|  **Rich Output** | Returns disease descriptions, precautions, and doctor recommendations |
+|  **EDA Visualizations** | Seaborn/Matplotlib charts for dataset exploration |
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Symptom-Based-Disease-Prediction-System/
 │
-├── 📓 Symptom_Based_Disease_Prediction_Chatbot.ipynb   # Main notebook (EDA + Model + Chatbot)
-├── 📄 Symptom_Based_Disease_Prediction_Chatbot.html    # Exported HTML view of the notebook
-├── 📋 requirements.txt                                  # Python dependencies
-├── 📜 LICENSE                                           # MIT License
-├── 📖 README.md                                         # Project documentation
+├──  Symptom_Based_Disease_Prediction_Chatbot.ipynb   # Main notebook (EDA + Model + Chatbot)
+├── Symptom_Based_Disease_Prediction_Chatbot.html    # Exported HTML view of the notebook
+├──  requirements.txt                                  # Python dependencies
+├── LICENSE                                           # MIT License
+├──  README.md                                         # Project documentation
 │
-└── 📂 Data/
+└──  Data/
     ├── Training.csv             # Training dataset (symptoms → prognosis)
     ├── Testing.csv              # Holdout test dataset
     ├── Symptom_severity.csv     # Severity weight per symptom
@@ -66,7 +66,7 @@ Symptom-Based-Disease-Prediction-System/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 - Python **3.9+** (developed on 3.11)
@@ -109,7 +109,7 @@ Open `Symptom_Based_Disease_Prediction_Chatbot.ipynb` and run all cells.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 Once all cells are executed, the chatbot starts an interactive session in the notebook output:
 
@@ -143,7 +143,7 @@ Take following measures:
 
 ---
 
-## 📊 Model Details
+##  Model Details
 
 ### Algorithms Used
 
@@ -175,7 +175,7 @@ Output: Disease + Description + Precautions
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 The dataset maps **132 symptoms** to **41 diseases** using binary feature vectors.
 
@@ -191,7 +191,7 @@ The dataset maps **132 symptoms** to **41 diseases** using binary feature vector
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -205,18 +205,18 @@ The dataset maps **132 symptoms** to **41 diseases** using binary feature vector
 
 ---
 
-## 🛣️ Roadmap
+##  Roadmap
 
-- [ ] 🌐 Deploy as a Flask / FastAPI web application
-- [ ] 📱 Build a React Native mobile app
-- [ ] 🤗 Integrate a Transformer-based NLP model (e.g., BioBERT) for free-text symptom extraction
-- [ ] 🏥 Expand dataset to cover 200+ diseases
-- [ ] 🗂️ Add user session history and personalized health tracking
-- [ ] 🌍 Multi-language support
+- [ ]  Deploy as a Flask / FastAPI web application
+- [ ]  Build a React Native mobile app
+- [ ] Integrate a Transformer-based NLP model (e.g., BioBERT) for free-text symptom extraction
+- [ ]  Expand dataset to cover 200+ diseases
+- [ ]  Add user session history and personalized health tracking
+- [ ]  Multi-language support
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -228,7 +228,7 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Aditya**
 - GitHub: [@Aditya07129](https://github.com/Aditya07129)
@@ -237,8 +237,8 @@ Contributions, issues, and feature requests are welcome!
 
 <div align="center">
 
-⭐ **Star this repo if you found it helpful!** ⭐
 
-*Built with ❤️ for accessible healthcare information*
+
+*Built  for accessible healthcare information
 
 </div>
